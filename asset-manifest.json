@@ -1,15 +1,15 @@
 {
-  "main.css": "/static/css/main.b3e7591f.chunk.css",
-  "main.js": "/static/js/main.a6290739.chunk.js",
-  "main.js.map": "/static/js/main.a6290739.chunk.js.map",
-  "static/css/1.0dc3fa8b.chunk.css": "/static/css/1.0dc3fa8b.chunk.css",
-  "static/js/1.24ca9597.chunk.js": "/static/js/1.24ca9597.chunk.js",
-  "static/js/1.24ca9597.chunk.js.map": "/static/js/1.24ca9597.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/css/1.0dc3fa8b.chunk.css.map": "/static/css/1.0dc3fa8b.chunk.css.map",
-  "static/css/main.b3e7591f.chunk.css.map": "/static/css/main.b3e7591f.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.c30b322536e8bd879eb28447f16669f3.js": "/precache-manifest.c30b322536e8bd879eb28447f16669f3.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "/fusion-taste-reactjs/static/css/main.b3e7591f.chunk.css",
+  "main.js": "/fusion-taste-reactjs/static/js/main.c7e3746d.chunk.js",
+  "main.js.map": "/fusion-taste-reactjs/static/js/main.c7e3746d.chunk.js.map",
+  "static/css/1.0dc3fa8b.chunk.css": "/fusion-taste-reactjs/static/css/1.0dc3fa8b.chunk.css",
+  "static/js/1.24ca9597.chunk.js": "/fusion-taste-reactjs/static/js/1.24ca9597.chunk.js",
+  "static/js/1.24ca9597.chunk.js.map": "/fusion-taste-reactjs/static/js/1.24ca9597.chunk.js.map",
+  "runtime~main.js": "/fusion-taste-reactjs/static/js/runtime~main.0974f2a2.js",
+  "runtime~main.js.map": "/fusion-taste-reactjs/static/js/runtime~main.0974f2a2.js.map",
+  "static/css/1.0dc3fa8b.chunk.css.map": "/fusion-taste-reactjs/static/css/1.0dc3fa8b.chunk.css.map",
+  "static/css/main.b3e7591f.chunk.css.map": "/fusion-taste-reactjs/static/css/main.b3e7591f.chunk.css.map",
+  "index.html": "/fusion-taste-reactjs/index.html",
+  "precache-manifest.085dabd2b4a336f19cac497cbcaef451.js": "/fusion-taste-reactjs/precache-manifest.085dabd2b4a336f19cac497cbcaef451.js",
+  "service-worker.js": "/fusion-taste-reactjs/service-worker.js"
 }
