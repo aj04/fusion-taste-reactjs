@@ -4,23 +4,23 @@ self.__precacheManifest = [
     "url": "/fusion-taste-reactjs/static/js/runtime~main.0974f2a2.js"
   },
   {
-    "revision": "780b510aa3520762c7e3",
-    "url": "/fusion-taste-reactjs/static/js/main.780b510a.chunk.js"
+    "revision": "edb956f1b001ade5998a",
+    "url": "/fusion-taste-reactjs/static/js/main.edb956f1.chunk.js"
   },
   {
-    "revision": "3a2336db7035131eaab9",
-    "url": "/fusion-taste-reactjs/static/js/1.3a2336db.chunk.js"
+    "revision": "0684074c33880331098e",
+    "url": "/fusion-taste-reactjs/static/js/1.0684074c.chunk.js"
   },
   {
-    "revision": "780b510aa3520762c7e3",
+    "revision": "edb956f1b001ade5998a",
     "url": "/fusion-taste-reactjs/static/css/main.f67bd47a.chunk.css"
   },
   {
-    "revision": "3a2336db7035131eaab9",
+    "revision": "0684074c33880331098e",
     "url": "/fusion-taste-reactjs/static/css/1.0dc3fa8b.chunk.css"
   },
   {
-    "revision": "7a6ee531c84d05c90b616297bf9673f4",
+    "revision": "06243b4c51dc3aa15d959269486ed995",
     "url": "/fusion-taste-reactjs/index.html"
   }
 ];
