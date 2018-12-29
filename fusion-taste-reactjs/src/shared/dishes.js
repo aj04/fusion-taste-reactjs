@@ -13,35 +13,35 @@ export const DISHES =
                     id: 0,
                     rating: 5,
                     comment: "Imagine all the eatables, living in conFusion!",
-                    author: "John Lemon",
+                    author: "Joe Tribbiany",
                     date: "2012-10-16T17:57:28.556094Z"
                 },
                 {
                     id: 1,
                     rating: 4,
                     comment: "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
-                    author: "Paul McVites",
+                    author: "Mike Hannigan",
                     date: "2014-09-05T17:57:28.556094Z"
                 },
                 {
                     id: 2,
                     rating: 3,
                     comment: "Eat it, just eat it!",
-                    author: "Michael Jaikishan",
+                    author: "Phoebe Buffey",
                     date: "2015-02-13T17:57:28.556094Z"
                 },
                 {
                     id: 3,
                     rating: 4,
                     comment: "Ultimate, Reaching for the stars!",
-                    author: "Ringo Starry",
+                    author: "Monica Geller",
                     date: "2013-12-02T17:57:28.556094Z"
                 },
                 {
                     id: 4,
                     rating: 2,
                     comment: "It's your birthday, we're gonna party!",
-                    author: "25 Cent",
+                    author: "Rachel Green",
                     date: "2011-12-02T17:57:28.556094Z"
                 }
             ]                        },
@@ -58,35 +58,35 @@ export const DISHES =
                     id: 0,
                     rating: 5,
                     comment: "Imagine all the eatables, living in conFusion!",
-                    author: "John Lemon",
+                    author: "Barney Stinson",
                     date: "2012-10-16T17:57:28.556094Z"
                 },
                 {
                     id: 1,
                     rating: 4,
                     comment: "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
-                    author: "Paul McVites",
+                    author: "Ted Mosby",
                     date: "2014-09-05T17:57:28.556094Z"
                 },
                 {
                     id: 2,
                     rating: 3,
                     comment: "Eat it, just eat it!",
-                    author: "Michael Jaikishan",
+                    author: "Lily Oatis",
                     date: "2015-02-13T17:57:28.556094Z"
                 },
                 {
                     id: 3,
                     rating: 4,
                     comment: "Ultimate, Reaching for the stars!",
-                    author: "Ringo Starry",
+                    author: "John Pinto",
                     date: "2013-12-02T17:57:28.556094Z"
                 },
                 {
                     id: 4,
                     rating: 2,
                     comment: "It's your birthday, we're gonna party!",
-                    author: "25 Cent",
+                    author: "George Costansa",
                     date: "2011-12-02T17:57:28.556094Z"
                 }
             ]
@@ -104,21 +104,21 @@ export const DISHES =
                     id: 0,
                     rating: 5,
                     comment: "Imagine all the eatables, living in conFusion!",
-                    author: "John Lemon",
+                    author: "Cosmo Kramer",
                     date: "2012-10-16T17:57:28.556094Z"
                 },
                 {
                     id: 1,
                     rating: 4,
                     comment: "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
-                    author: "Paul McVites",
+                    author: "Jerry Seinfeild",
                     date: "2014-09-05T17:57:28.556094Z"
                 },
                 {
                     id: 2,
                     rating: 3,
                     comment: "Eat it, just eat it!",
-                    author: "Michael Jaikishan",
+                    author: "Michael Hallion",
                     date: "2015-02-13T17:57:28.556094Z"
                 },
                 {
@@ -132,7 +132,7 @@ export const DISHES =
                     id: 4,
                     rating: 2,
                     comment: "It's your birthday, we're gonna party!",
-                    author: "25 Cent",
+                    author: "Elaine Bannis",
                     date: "2011-12-02T17:57:28.556094Z"
                 }
             ]
@@ -150,35 +150,35 @@ export const DISHES =
                     id: 0,
                     rating: 5,
                     comment: "Imagine all the eatables, living in conFusion!",
-                    author: "John Lemon",
+                    author: "Michael Bluth",
                     date: "2012-10-16T17:57:28.556094Z"
                 },
                 {
                     id: 1,
                     rating: 4,
                     comment: "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
-                    author: "Paul McVites",
+                    author: "Rick Grimes",
                     date: "2014-09-05T17:57:28.556094Z"
                 },
                 {
                     id: 2,
                     rating: 3,
                     comment: "Eat it, just eat it!",
-                    author: "Michael Jaikishan",
+                    author: "Daniel Watson",
                     date: "2015-02-13T17:57:28.556094Z"
                 },
                 {
                     id: 3,
                     rating: 4,
                     comment: "Ultimate, Reaching for the stars!",
-                    author: "Ringo Starry",
+                    author: "Chandler Bing",
                     date: "2013-12-02T17:57:28.556094Z"
                 },
                 {
                     id: 4,
                     rating: 2,
                     comment: "It's your birthday, we're gonna party!",
-                    author: "25 Cent",
+                    author: "Andrew Horan",
                     date: "2011-12-02T17:57:28.556094Z"
                 }
             ]
