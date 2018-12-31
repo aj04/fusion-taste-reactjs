@@ -4,6 +4,8 @@ import './../App.css';
 import Menu from "./MenuComponent";
 import { DISHES } from "./../shared/dishes";
 import DishDetail from "./DishDetailComponent";
+import Header from "./HeaderComponent";
+import Footer from "./FooterComponent";
 
 class Main extends Component {
 	constructor(props) {
@@ -28,11 +30,7 @@ class Main extends Component {
 	render() {
 		return (
 			<div>
-				<Navbar dark color="primary">
-					<div className="container">
-						<NavbarBrand href='/'> Asian Fusion Taste Restaurant </NavbarBrand>
-					</div>
-				</Navbar>
+				<Header/>
 
 				<div className="container">
 					<Menu dishes={this.state.dishes}
@@ -40,6 +38,7 @@ class Main extends Component {
 
 						<DishDetail
 							dish={this.getDishDetailWithDishId()}/>
+						<Footer/>
 				</div>
 			</div>
 		);
