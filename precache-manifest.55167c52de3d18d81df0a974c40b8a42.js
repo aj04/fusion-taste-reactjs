@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/fusion-taste-reactjs/static/media/fontawesome-webfont.af7ae505.woff2"
   },
   {
-    "revision": "f19343d2176e4aa39b01",
+    "revision": "d45aa456efb5673f8e77",
     "url": "/fusion-taste-reactjs/static/css/main.b74f9382.chunk.css"
   },
   {
-    "revision": "912ec66d7572ff821749319396470bde",
-    "url": "/fusion-taste-reactjs/static/media/fontawesome-webfont.912ec66d.svg"
+    "revision": "674f50d287a8c48dc19ba404d20fe713",
+    "url": "/fusion-taste-reactjs/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
     "revision": "66d247e08583a5e87cae",
@@ -20,12 +20,8 @@ self.__precacheManifest = [
     "url": "/fusion-taste-reactjs/static/js/runtime~main.0974f2a2.js"
   },
   {
-    "revision": "f19343d2176e4aa39b01",
-    "url": "/fusion-taste-reactjs/static/js/main.f19343d2.chunk.js"
-  },
-  {
-    "revision": "674f50d287a8c48dc19ba404d20fe713",
-    "url": "/fusion-taste-reactjs/static/media/fontawesome-webfont.674f50d2.eot"
+    "revision": "d45aa456efb5673f8e77",
+    "url": "/fusion-taste-reactjs/static/js/main.d45aa456.chunk.js"
   },
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
@@ -36,11 +32,15 @@ self.__precacheManifest = [
     "url": "/fusion-taste-reactjs/static/media/fontawesome-webfont.b06871f2.ttf"
   },
   {
+    "revision": "912ec66d7572ff821749319396470bde",
+    "url": "/fusion-taste-reactjs/static/media/fontawesome-webfont.912ec66d.svg"
+  },
+  {
     "revision": "66d247e08583a5e87cae",
     "url": "/fusion-taste-reactjs/static/css/1.f926946d.chunk.css"
   },
   {
-    "revision": "cf796ef7f5c8e7640f538dd36f2a2700",
+    "revision": "573e545130dfc574d3a3a34c63fc25fa",
     "url": "/fusion-taste-reactjs/index.html"
   }
 ];
