@@ -56,11 +56,11 @@ class Main extends Component {
 				<Header/>
 
 				<Switch>
-					<Route path='/home' component={HomePage} />
+					<Route path={process.env.PUBLIC_URL + '/home'} component={HomePage} />
 					{/*<Route path='/home' component={MenuPage} />*/}
-					<Route exact path='/menu' component={MenuPage} />} />
-					<Route exact path='/contactus' component={Contact} />} />
-					<Redirect to="/home" />
+					<Route exact path={process.env.PUBLIC_URL + '/menu'} component={MenuPage} />} />
+					<Route exact path={process.env.PUBLIC_URL + '/contactus'} component={Contact} />} />
+					<Redirect to={process.env.PUBLIC_URL + '/home'} />
 				</Switch>
 
 				{/*<Route exact path={`/`} render={ (routerProps) => < Home routerProps={routerProps} setUpGame={this.setUpGame} />} />*/}
