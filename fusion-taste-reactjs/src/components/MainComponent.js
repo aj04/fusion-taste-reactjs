@@ -63,7 +63,11 @@ class Main extends Component {
 					<Redirect to="/home" />
 				</Switch>
 
-				{/*<div className="container">*/}
+				{/*<Route exact path={`/`} render={ (routerProps) => < Home routerProps={routerProps} setUpGame={this.setUpGame} />} />*/}
+			{/*</Switch>*/}
+
+
+		{/*<div className="container">*/}
 					{/*<Menu dishes={this.state.dishes}*/}
 						{/*onClick={(dishId) => this.onDishSelect(dishId)}/>*/}
 
