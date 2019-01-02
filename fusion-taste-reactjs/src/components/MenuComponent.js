@@ -5,7 +5,7 @@ import { Card, CardImg, CardImgOverlay, CardTitle } from 'reactstrap';
 	function RenderMenuItem ({dish}) {
 		return (
 			<Card >
-				<CardImg width="100%" src={dish.image} alt={dish.name} />
+				<CardImg width="100%" src={process.env.PUBLIC_URL + '/' + dish.image} alt={dish.name} />
 				<CardImgOverlay>
 					<CardTitle>{dish.name}</CardTitle>
 				</CardImgOverlay>
