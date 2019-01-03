@@ -10,7 +10,7 @@ export const LEADERS = [
 	},
 	{
 		id: 1,
-		name: 'Dhanasekaran Witherspoon',
+		name: 'Zuri James',
 		image: '/assets/images/alberto.png',
 		designation: 'Chief Food Officer',
 		abbr: 'CFO',
@@ -19,8 +19,8 @@ export const LEADERS = [
 	},
 	{
 		id: 2,
-		name: 'Agumbe Tang',
-		image: '/assets/images/chef.jpeg',
+		name: 'Alan Tang',
+		image: '/assets/images/Chef.jpeg',
 		designation: 'Chief Taste Officer',
 		abbr: 'CTO',
 		featured: false,
@@ -29,7 +29,7 @@ export const LEADERS = [
 	{
 		id: 3,
 		name: 'Tim Reed',
-		image: '/assets/images/chef.jpeg',
+		image: '/assets/images/Chef.jpeg',
 		designation: 'Executive Chef',
 		abbr: 'EC',
 		featured: true,

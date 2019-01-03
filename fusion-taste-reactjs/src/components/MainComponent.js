@@ -56,7 +56,6 @@ class Main extends Component {
 
 				<Switch>
 					<Route path='/home' component={HomePage} />
-					{/*<Route path='/home' component={MenuPage} />*/}
 					<Route exact path='/menu' component={MenuPage} />} />
 					<Route exact path='/contactus' component={Contact} />} />
 					<Redirect to='/home' />
