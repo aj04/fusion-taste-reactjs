@@ -3,9 +3,12 @@ import { Card, CardImg, CardImgOverlay, CardTitle } from 'reactstrap';
 
 
 	function RenderMenuItem ({dish}) {
+		if (process.env.PUBLIC_URL) {
+			dish.image = 'process.env.PUBLIC_URL'  + dish.image;
+		}
 		return (
 			<Card >
-				<CardImg width="100%" src={process.env.PUBLIC_URL + '/' + dish.image} alt={dish.name} />
+				<CardImg width="100%" src={dish.image} alt={dish.name} />
 				<CardImgOverlay>
 					<CardTitle>{dish.name}</CardTitle>
 				</CardImgOverlay>

@@ -4,9 +4,13 @@ import { Card, CardImg, CardBody, CardTitle, CardSubtitle, CardText } from "reac
 
 function RenderCard({item}) {
 
+	if (process.env.PUBLIC_URL) {
+		item.image = 'process.env.PUBLIC_URL'  + item.image;
+	}
 	return(
+
 		<Card>
-			<CardImg src={process.env.PUBLIC_URL + '/' + item.image} alt={item.name} />
+			<CardImg src={item.image} alt={item.name} />
 			<CardBody>
 				<CardTitle>{item.name}</CardTitle>
 				{/*See below how Javascript is inserted right into HTML*/}
