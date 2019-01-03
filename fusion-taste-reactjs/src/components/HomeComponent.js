@@ -5,7 +5,7 @@ import { Card, CardImg, CardBody, CardTitle, CardSubtitle, CardText } from "reac
 function RenderCard({item}) {
 
 	if (process.env.PUBLIC_URL) {
-		item.image = 'process.env.PUBLIC_URL'  + item.image;
+		item.image = process.env.PUBLIC_URL  + item.image;
 	}
 	return(
 

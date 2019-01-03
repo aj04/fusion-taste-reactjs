@@ -4,7 +4,7 @@ import { Card, CardImg, CardImgOverlay, CardTitle } from 'reactstrap';
 
 	function RenderMenuItem ({dish}) {
 		if (process.env.PUBLIC_URL) {
-			dish.image = 'process.env.PUBLIC_URL'  + dish.image;
+			dish.image = process.env.PUBLIC_URL + dish.image;
 		}
 		return (
 			<Card >
