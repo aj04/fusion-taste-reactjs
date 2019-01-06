@@ -10,6 +10,7 @@ import Contact from "./ContactComponent";
 import { COMMENTS } from "../shared/comments";
 import { LEADERS } from "../shared/leaders";
 import { PROMOTIONS } from "../shared/promotions";
+import DishDetail from "./DishDetailComponent";
 
 class Main extends Component {
 	constructor(props) {
@@ -35,7 +36,17 @@ class Main extends Component {
   };
 
 
+
 	render() {
+		// the route parameter provides three properties in props Object : match, history and location
+		const DishWithId = ({match}) => {
+			return(
+				<DishDetail
+					dish={this.state.dishes.filter((dish) => dish.id === parseInt(match.params.dishId,10))[0]}
+					comments={this.state.comments.filter((comment) => comment.dishId === parseInt(match.params.dishId,10))}
+				/>
+			);
+		};
 		const HomePage = () => {
 			return(
 				<Home
@@ -58,21 +69,11 @@ class Main extends Component {
 					<Route path='/home' component={HomePage} />
 					<Route exact path='/menu' component={MenuPage} />} />
 					<Route exact path='/contactus' component={Contact} />} />
+					<Route path='/menu/:dishId' component={DishWithId} />
 					<Redirect to='/home' />
 				</Switch>
 
-				{/*<Route exact path={`/`} render={ (routerProps) => < Home routerProps={routerProps} setUpGame={this.setUpGame} />} />*/}
-			{/*</Switch>*/}
-
-
-		{/*<div className="container">*/}
-					{/*<Menu dishes={this.state.dishes}*/}
-						{/*onClick={(dishId) => this.onDishSelect(dishId)}/>*/}
-
-						{/*<DishDetail*/}
-							{/*dish={this.getDishDetailWithDishId()}/>*/}
-						<Footer/>
-				{/*</div>*/}
+				<Footer/>
 			</div>
 		);
 	}

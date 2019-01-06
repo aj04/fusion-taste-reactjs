@@ -18,44 +18,13 @@ class Header extends Component {
 		});
 	}
 
-	// toggleNav = ()  => {
-	// 	this.setState({
-	// 		isNavOpen: !this.state.isNavOpen
-	// 	});
-	// }
-
-
-	// render() {
-	// 	return (
-	// 		// React Fragment(<>) is like div but doesnt create another node in DOM Tree
-	// 		<React.Fragment>
-	// 			<Navbar dark>
-	// 				<div className="container">
-	// 					<NavbarBrand href="/">Asian Fusion Taste Restaurant</NavbarBrand>
-	// 				</div>
-	// 			</Navbar>
-	// 			<Jumbotron>
-	// 				<div className="container">
-	// 					<div className="row row-header">
-	// 						<div className="col-12 col-sm-6">
-	// 							<h1>Asian Fusion Taste Restaurant</h1>
-	// 							<p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
-	// 						</div>
-	// 					</div>
-	// 				</div>
-	// 			</Jumbotron>
-	// 		</React.Fragment>
-	// 	);
-	// }
-
-
 	render() {
 		return(
 			<div>
 				<Navbar dark expand="md">
 					<div className="container">
 						<NavbarToggler onClick={this.toggleNav} />
-						<NavbarBrand className="mr-auto" href="/"><img src='assets/images/logo.png' height="30" width="41" alt='Ristorante Con Fusion' /></NavbarBrand>
+						<NavbarBrand className="mr-auto" href="/"><img src='assets/images/logo.png' height="30" width="41" alt='Asian Fusion' /></NavbarBrand>
 						<Collapse isOpen={this.state.isNavOpen} navbar>
 							<Nav navbar>
 								<NavItem>
@@ -78,7 +47,7 @@ class Header extends Component {
 					<div className="container">
 						<div className="row row-header">
 							<div className="col-12 col-sm-6">
-								<h1>Ristorante con Fusion</h1>
+								<h1>Asian Fusion Taste</h1>
 								<p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
 							</div>
 						</div>
