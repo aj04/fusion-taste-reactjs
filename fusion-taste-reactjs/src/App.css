@@ -43,3 +43,14 @@ address{
     background-color: #31100a;
     color: #bd945b;
 }
+
+.image-width {
+ width: 250px;
+ padding-right: 20px;
+}
+@media screen and (max-width:600px) {
+    .image-width {
+        width: 64px;
+        padding-right: 0px;
+    }
+}

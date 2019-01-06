@@ -11,6 +11,7 @@ import { COMMENTS } from "../shared/comments";
 import { LEADERS } from "../shared/leaders";
 import { PROMOTIONS } from "../shared/promotions";
 import DishDetail from "./DishDetailComponent";
+import About from "./AboutComponent";
 
 class Main extends Component {
 	constructor(props) {
@@ -61,6 +62,11 @@ class Main extends Component {
 				<Menu dishes={this.state.dishes}/>
 			)
 		}	;
+		const AboutPage = () => {
+			return (
+				<About leaders={this.state.leaders}/>
+			)
+		}	;
 		return (
 			<div>
 				<Header/>
@@ -69,6 +75,7 @@ class Main extends Component {
 					<Route path='/home' component={HomePage} />
 					<Route exact path='/menu' component={MenuPage} />} />
 					<Route exact path='/contactus' component={Contact} />} />
+					<Route exact path='/aboutus' component={AboutPage} />} />
 					<Route path='/menu/:dishId' component={DishWithId} />
 					<Redirect to='/home' />
 				</Switch>
