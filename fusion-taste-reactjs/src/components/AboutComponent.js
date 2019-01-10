@@ -7,6 +7,7 @@ function About(props) {
 
 	function RenderLeader(props) {
 		const leader = props.leader;
+		// this is for Github Pages Deployment
 		if (process.env.PUBLIC_URL && !leader.image.includes(process.env.PUBLIC_URL)) {
 			leader.image = process.env.PUBLIC_URL + leader.image;
 		}
