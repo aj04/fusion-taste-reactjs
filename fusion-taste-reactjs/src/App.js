@@ -22,3 +22,7 @@ class App extends Component {
 }
 
 export default App;
+
+// "react-redux-form": "^1.16.12",
+// "redux": "^4.0.1"
+//  "react-redux": "^6.0.0",
