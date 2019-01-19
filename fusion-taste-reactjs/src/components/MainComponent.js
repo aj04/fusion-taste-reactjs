@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import { Switch, Route, Redirect, withRouter } from 'react-router-dom';
+import { actions } from 'react-redux-form';
+
 import './../App.css';
-import Menu from "./MenuComponent";
-import { DISHES } from "./../shared/dishes";
 import Header from "./HeaderComponent";
 import Footer from "./FooterComponent";
-import { Switch, Route, Redirect, withRouter } from 'react-router-dom';
-
+import Menu from "./MenuComponent";
+import { DISHES } from "./../shared/dishes";
 import Home from "./HomeComponent";
 import Contact from "./ContactComponent";
 import { COMMENTS } from "../shared/comments";
@@ -27,7 +28,8 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => ({
 	addComment: (dishId, rating, author, comment) => dispatch(addComment(dishId, rating, author, comment)),
-	fetchDishes: () => { dispatch(fetchDishes())}
+	fetchDishes: () => { dispatch(fetchDishes())},
+	resetFeedbackForm: () => { dispatch(actions.reset('feedback'))}
 });
 
 
@@ -98,7 +100,8 @@ class Main extends Component {
 				<Switch>
 					<Route path='/home' component={this.HomePage} />
 					<Route exact path='/menu' component={this.MenuPage} />} />
-					<Route exact path='/contactus' component={Contact} />} />
+					<Route exact path='/contactus'
+								 component={() => <Contact resetFeedbackForm={this.props.resetFeedbackForm} />} />
 					<Route exact path='/aboutus' component={this.AboutPage} />} />
 					<Route path='/menu/:dishId' component={this.DishWithId} />
 					<Redirect to='/home' />
