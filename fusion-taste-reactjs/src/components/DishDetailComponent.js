@@ -2,37 +2,63 @@ import React, { Component }  from 'react';
 import { Button,	Card,	CardBody,	CardImg, CardText, CardTitle,
 	Label, Modal, ModalBody,	ModalHeader, Row} from "reactstrap";
 import { Breadcrumb, BreadcrumbItem } from "reactstrap";
-import { Link } from "react-router-dom";
 import { Control, Errors, LocalForm } from "react-redux-form";
+import { Link } from "react-router-dom";
+
+import { Loading } from './LoadingComponent';
 
 const DishDetail = (props) => {
 	const selectedDish = props.dish;
-	return(
-		<div className="container">
-			<div className="row">
-				<Breadcrumb>
+	if (props.isLoading) {
+			return(
+				<div className="container">
+					<div className="row">
+						<Loading />
+					</div>
+				</div>
+			);
+	}
+	else if (props.errMess) {
+			return(
+				<div className="container">
+					<div className="row">
+						<h4>{props.errMess}</h4>
+					</div>
+				</div>
+			);
+	}
+	else if (props.dish != null) {
+			return (
+				<div className="container">
+					<div className="row">
+						<Breadcrumb>
 
-					<BreadcrumbItem><Link to="/menu">Menu</Link></BreadcrumbItem>
-					<BreadcrumbItem active>{props.dish.name}</BreadcrumbItem>
-				</Breadcrumb>
-				<div className="col-12">
-					<h3>{props.dish.name}</h3>
-					<hr />
+							<BreadcrumbItem><Link to="/menu">Menu</Link></BreadcrumbItem>
+							<BreadcrumbItem active>{props.dish.name}</BreadcrumbItem>
+						</Breadcrumb>
+						<div className="col-12">
+							<h3>{props.dish.name}</h3>
+							<hr/>
+						</div>
+					</div>
+					<div className="row">
+						<div className="col-12 col-md-5 m-1">
+							{renderDish(selectedDish)}
+						</div>
+						<div className="col-12 col-md-5 m-1">
+							<RenderComments comments={props.comments}
+															addComment={props.addComment}
+															dishId={props.dish.id}
+							/>
+						</div>
+					</div>
 				</div>
-			</div>
-			<div className="row">
-				<div  className="col-12 col-md-5 m-1">
-					{renderDish(selectedDish)}
-				</div>
-				<div  className="col-12 col-md-5 m-1">
-					{renderComments(props.comments)}
-				</div>
-			</div>
-		</div>
-	)
+			)
+	}
 };
 
-function renderComments(comments) {
+// @todo move this Render Comments function component in its own files.
+function RenderComments({comments, addComment, dishId}) {
 	if (comments != null) {
 		const formattedComments = comments.map((formattedComment) => {
 			const date = new Date(formattedComment.date);
@@ -48,12 +74,12 @@ function renderComments(comments) {
 			<div className="p-3">
 				<h4>Comments</h4>
 				<ul className="list-unstyled">{formattedComments}</ul>
-				<CommentForm/>
+				<CommentForm dishId={dishId} addComment={addComment} />
 			</div>
 		);
 	}
 	else {
-		return(<div></div>);
+		return(<div/>);
 	}
 }
 
@@ -74,7 +100,7 @@ function renderDish(dish) {
 	}
 	else
 		return(
-			<div></div>
+			<div/>
 		);
 }
 
@@ -97,6 +123,7 @@ class CommentForm extends Component {
 	handleCommentSubmit = (values) => {
 		console.log('Current State is: ' + JSON.stringify(values));
 		alert('Current State is: ' + JSON.stringify(values));
+		this.props.addComment(this.props.dishId, values.rating, values.author, values.comment);
 		this.toggleSubmitDialog();
 	};
 
@@ -120,12 +147,12 @@ class CommentForm extends Component {
 							</Row>
 							<Row className="form-group">
 								<Label htmlFor="userName">Your Name</Label>
-								<Control.text type="text" model=".userName" id="userName"
-									 name="userName" placeholder="User Name" className="form-control"
+								<Control.text type="text" model=".author" id="author"
+									 name="author" placeholder="User Name" className="form-control"
 									 validators={{ required, minLength: minLength(3), maxLength: maxLength(15) }}/>
 								<Errors
 									className="text-danger"
-									model=".userName"
+									model=".author"
 									show="touched"
 									messages={{
 										required: 'Required',
@@ -144,7 +171,7 @@ class CommentForm extends Component {
 					</ModalBody>
 				</Modal>
 				<Button outline onClick={this.toggleSubmitDialog} >
-					<span className="fa fa-pencil fa-lg"></span>
+					<span className="fa fa-pencil fa-lg"/>
 					Submit Comment </Button>
 			</div>
 		)
