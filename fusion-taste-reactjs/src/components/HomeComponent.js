@@ -4,7 +4,7 @@ import { Loading } from './LoadingComponent';
 
 function RenderCard({item, isLoading, errMess}) {
 
-	if (process.env.PUBLIC_URL && !item.image.includes(process.env.PUBLIC_URL)) {
+	if (process.env.PUBLIC_URL && item && !item.image.includes(process.env.PUBLIC_URL)) {
 		item.image = process.env.PUBLIC_URL  + item.image;
 	}
 	if (isLoading) {
