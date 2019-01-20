@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "674f50d287a8c48dc19ba404d20fe713",
-    "url": "/fusion-taste-reactjs/static/media/fontawesome-webfont.674f50d2.eot"
+    "revision": "af7ae505a9eed503f8b8e6982036873e",
+    "url": "/fusion-taste-reactjs/static/media/fontawesome-webfont.af7ae505.woff2"
   },
   {
-    "revision": "2fdc844fc5752ac3fa3b",
+    "revision": "f43be8066352f4264d39",
     "url": "/fusion-taste-reactjs/static/css/main.cb09c2f0.chunk.css"
   },
   {
@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "/fusion-taste-reactjs/static/js/runtime~main.0974f2a2.js"
   },
   {
-    "revision": "2fdc844fc5752ac3fa3b",
-    "url": "/fusion-taste-reactjs/static/js/main.2fdc844f.chunk.js"
+    "revision": "f43be8066352f4264d39",
+    "url": "/fusion-taste-reactjs/static/js/main.f43be806.chunk.js"
   },
   {
-    "revision": "af7ae505a9eed503f8b8e6982036873e",
-    "url": "/fusion-taste-reactjs/static/media/fontawesome-webfont.af7ae505.woff2"
+    "revision": "674f50d287a8c48dc19ba404d20fe713",
+    "url": "/fusion-taste-reactjs/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/fusion-taste-reactjs/static/css/1.c48ea312.chunk.css"
   },
   {
-    "revision": "ddb357273527c080940bee05c2b42885",
+    "revision": "ee32d19e6d3bc9325463d4f9480f645b",
     "url": "/fusion-taste-reactjs/index.html"
   }
 ];
