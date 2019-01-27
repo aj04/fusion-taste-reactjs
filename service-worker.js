@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/fusion-taste-reactjs/precache-manifest.390be3c05e20ce83f391ec9ed65c9f5e.js"
+  "/fusion-taste-reactjs/precache-manifest.06f9519c7951764002e5e55b0cfb3cb6.js"
 );
 
 workbox.clientsClaim();
