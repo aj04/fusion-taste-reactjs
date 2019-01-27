@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ef127b60-9d00-4a55-8d75-3fc8ca3f03b6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/public/assets/images/Chef.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/public/assets/images/UthaPizza.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/public/assets/images/alberto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/public/assets/images/buffet.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/public/assets/images/buffet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/public/assets/images/default.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/public/assets/images/elaicheesecake 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/public/assets/images/elaicheesecake.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/public/assets/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/public/assets/images/uthappizza 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/public/assets/images/vadonut 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/public/assets/images/vadonut.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/public/assets/images/zucchipakoda 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/public/assets/images/zucchipakoda.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/src/components/AboutComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/src/components/ContactComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/src/components/DishDetailComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/src/components/FooterComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/src/components/HeaderComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/src/components/HomeComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/src/components/LoadingComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/src/components/MainComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/src/components/MenuComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/src/redux/ActionCreators.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/src/redux/ActionTypes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/src/redux/comment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/src/redux/configureStore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/src/redux/dishes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/src/redux/forms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/src/redux/leaders.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/src/redux/promotions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/src/shared/comments.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/src/shared/dishes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/src/shared/leaders.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fusion-taste-reactjs/src/shared/promotions.js" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <ignored path=".idea/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="TypeScript File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>renderComments</find>
+      <find>commentForm</find>
+      <find>username</find>
+      <find>handleCommentSubmit</find>
+      <find>comment</find>
+      <find>local</find>
+      <find>firstname</find>
+      <find>last</find>
+      <find>lastname</find>
+      <find>addComments</find>
+      <find>promosFailed</find>
+      <find>addPromos</find>
+      <find>var</find>
+      <find>dis</find>
+      <find>baseurl</find>
+      <find>'</find>
+      <find>image</find>
+      <find>LEADERS</find>
+      <find>CardImg top src</find>
+      <find>baseUrl</find>
+      <find>assets/</find>
+      <find>buffe</find>
+      <find>errmess</find>
+      <find>var</find>
+      <find>Home</find>
+      <find>RenderCard</find>
+      <find>Tim Reed</find>
+      <find>promosFailed(error.message)</find>
+      <find>img</find>
+      <find>postComment</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>telNum</replace>
+      <replace />
+      <replace>&lt;Row</replace>
+      <replace>&lt;/Row&gt;</replace>
+      <replace>&lt;Row className=&quot;form-group&quot;</replace>
+      <replace>firstName</replace>
+      <replace>lastName</replace>
+      <replace>Row</replace>
+      <replace>userName</replace>
+      <replace>&quot;</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/fusion-taste-reactjs/src/shared/DISHES.js" />
+        <option value="$PROJECT_DIR$/fusion-taste-reactjs/.gitignore" />
+        <option value="$PROJECT_DIR$/fusion-taste-reactjs/src/components/Footer.js" />
+        <option value="$PROJECT_DIR$/fusion-taste-reactjs/src/components/FooterComponent.js" />
+        <option value="$PROJECT_DIR$/fusion-taste-reactjs/src/components/ContactsComponent.js" />
+        <option value="$PROJECT_DIR$/fusion-taste-reactjs/src/index.js" />
+        <option value="$PROJECT_DIR$/fusion-taste-reactjs/404.html" />
+        <option value="$PROJECT_DIR$/fusion-taste-reactjs/public/index.html" />
+        <option value="$PROJECT_DIR$/fusion-taste-reactjs/src/shared/comments.js" />
+        <option value="$PROJECT_DIR$/fusion-taste-reactjs/src/App.css" />
+        <option value="$PROJECT_DIR$/fusion-taste-reactjs/src/components/AboutComponent.js" />
+        <option value="$PROJECT_DIR$/fusion-taste-reactjs/src/components/HeaderComponent.js" />
+        <option value="$PROJECT_DIR$/fusion-taste-reactjs/src/redux/reducer.js" />
+        <option value="$PROJECT_DIR$/fusion-taste-reactjs/package.json" />
+        <option value="$PROJECT_DIR$/fusion-taste-reactjs/src/App.js" />
+        <option value="$PROJECT_DIR$/fusion-taste-reactjs/src/redux/promotions.ts" />
+        <option value="$PROJECT_DIR$/fusion-taste-reactjs/src/redux/leaders.js" />
+        <option value="$PROJECT_DIR$/fusion-taste-reactjs/src/components/LoadingComponent.js" />
+        <option value="$PROJECT_DIR$/fusion-taste-reactjs/src/redux/dishes.js" />
+        <option value="$PROJECT_DIR$/fusion-taste-reactjs/src/redux/forms.js" />
+        <option value="$PROJECT_DIR$/fusion-taste-reactjs/src/redux/configureStore.js" />
+        <option value="$PROJECT_DIR$/fusion-taste-reactjs/src/components/ContactComponent.js" />
+        <option value="$PROJECT_DIR$/fusion-taste-reactjs/src/redux/ActionTypes.js" />
+        <option value="$PROJECT_DIR$/fusion-taste-reactjs/src/redux/promotions.js" />
+        <option value="$PROJECT_DIR$/fusion-taste-reactjs/src/shared/dishes.js" />
+        <option value="$PROJECT_DIR$/fusion-taste-reactjs/src/shared/promotions.js" />
+        <option value="$PROJECT_DIR$/fusion-taste-reactjs/src/components/MenuComponent.js" />
+        <option value="$PROJECT_DIR$/fusion-taste-reactjs/src/shared/leaders.js" />
+        <option value="$PROJECT_DIR$/../json-server/db.json" />
+        <option value="$PROJECT_DIR$/fusion-taste-reactjs/src/shared/baseUrl.js" />
+        <option value="$PROJECT_DIR$/fusion-taste-reactjs/src/components/HomeComponent.js" />
+        <option value="$PROJECT_DIR$/fusion-taste-reactjs/src/redux/ActionCreators.js" />
+        <option value="$PROJECT_DIR$/fusion-taste-reactjs/src/redux/comment.js" />
+        <option value="$PROJECT_DIR$/fusion-taste-reactjs/src/components/MainComponent.js" />
+        <option value="$PROJECT_DIR$/fusion-taste-reactjs/src/components/DishDetailComponent.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="coursera-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coursera-react" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fusion-taste-reactjs/public/assets" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef127b60-9d00-4a55-8d75-3fc8ca3f03b6" name="Default Changelist" comment="" />
+      <created>1545542815040</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545542815040</updated>
+      <workItem from="1545542818358" duration="56106000" />
+      <workItem from="1546798949003" duration="9513000" />
+      <workItem from="1547343878555" duration="26773000" />
+      <workItem from="1548617957963" duration="240000" />
+    </task>
+    <task id="LOCAL-00001" summary="Created Dish Detail Component and populated the selected Dish.">
+      <created>1545965395487</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545965395487</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Populated Comments for the selected Dish using lists in the new Dish Detail Components.">
+      <created>1545970927263</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1545970927263</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Populated Comments for the selected Dish using lists in the new Dish Detail Components, along with IDE Changes.">
+      <created>1545971057114</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1545971057114</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Completed One Week of Learning React.js and also updated Author Name.">
+      <created>1546119594036</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1546119594036</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Updated Presentational and Container Components">
+      <created>1546143574366</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1546143574366</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Updated presentation Components into Function Components">
+      <created>1546201026464</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1546201026464</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Updated Header and Footer">
+      <created>1546216742536</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1546216742536</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Updated Images for Dishes.">
+      <created>1546218120709</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1546218120709</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Updated High Def Images for Dishes.">
+      <created>1546218187087</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1546218187087</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Configured React Router">
+      <created>1546239517408</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1546239517408</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Set up Home page and About page towards completing Single Page Application.">
+      <created>1546325114858</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1546325114858</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Testing Git Pages - React Routing">
+      <created>1546402216447</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1546402216447</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Testing Git Pages - React Routing 2">
+      <created>1546403026252</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1546403026253</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Testing Git Pages - React Routing with Image Set up">
+      <created>1546403927020</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1546403927020</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Updated Chef Images for git pages">
+      <created>1546474700817</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1546474700817</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Updated Chef Images for git pages - fixed string for prod images">
+      <created>1546475022264</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1546475022264</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Updated Chef Images for git pages - fixed string for prod images">
+      <created>1546475560389</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1546475560389</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Updated 404.html for re-routing vogue URLs">
+      <created>1546478093121</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1546478093121</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Updated Bread Crumbs and Dish details page as well.">
+      <created>1546740027966</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1546740027966</updated>
+    </task>
+    <task id="LOCAL-00020" summary="About Us page with state updated from Leaders JSON">
+      <created>1546746522106</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1546746522106</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Login Dialog created and used modal react strap method.">
+      <created>1547082233611</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1547082233611</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Added Redux to the app. And created first Store.">
+      <created>1547084717285</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1547084717285</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Added React-Redux Form -&gt; controlled Form">
+      <created>1547346751969</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1547346751969</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Added React Redux LocalForm for DishDetail Comment Submit Model Form.">
+      <created>1547416037430</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1547416037430</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Added React Redux Thunk and adding loading spinner.">
+      <created>1547926765579</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1547926765579</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Updated LocalForms to Native Javascript Forms.">
+      <created>1547934943035</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1547934943035</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Fix the Images path coming from Redux Store">
+      <created>1548023857926</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1548023857926</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Up and running with local npm server.">
+      <created>1548037235586</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1548037235586</updated>
+    </task>
+    <task id="LOCAL-00029" summary="post comments from Comment submit form still in progress.">
+      <created>1548614576264</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1548614576264</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="92632000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20413026" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3284553" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3284553" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.41626015" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2479452" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3284553" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Completed One Week of Learning React.js and also updated Author Name." />
+    <MESSAGE value="Updated Presentational and Container Components" />
+    <MESSAGE value="Updated presentation Components into Function Components" />
+    <MESSAGE value="Updated Header and Footer" />
+    <MESSAGE value="Updated Images for Dishes." />
+    <MESSAGE value="Updated High Def Images for Dishes." />
+    <MESSAGE value="Configured React Router" />
+    <MESSAGE value="Set up Home page and About page towards completing Single Page Application." />
+    <MESSAGE value="Testing Git Pages - React Routing" />
+    <MESSAGE value="Testing Git Pages - React Routing 2" />
+    <MESSAGE value="Testing Git Pages - React Routing with Image Set up" />
+    <MESSAGE value="Updated Chef Images for git pages" />
+    <MESSAGE value="Updated Chef Images for git pages - fixed string for prod images" />
+    <MESSAGE value="Updated 404.html for re-routing vogue URLs" />
+    <MESSAGE value="Updated Bread Crumbs and Dish details page as well." />
+    <MESSAGE value="About Us page with state updated from Leaders JSON" />
+    <MESSAGE value="Login Dialog created and used modal react strap method." />
+    <MESSAGE value="Added Redux to the app. And created first Store." />
+    <MESSAGE value="Added React-Redux Form -&gt; controlled Form" />
+    <MESSAGE value="Added React Redux LocalForm for DishDetail Comment Submit Model Form." />
+    <MESSAGE value="Added React Redux Thunk and adding loading spinner." />
+    <MESSAGE value="Updated LocalForms to Native Javascript Forms." />
+    <MESSAGE value="Fix the Images path coming from Redux Store" />
+    <MESSAGE value="Up and running with local npm server." />
+    <MESSAGE value="post comments from Comment submit form still in progress." />
+    <option name="LAST_COMMIT_MESSAGE" value="post comments from Comment submit form still in progress." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/fusion-taste-reactjs/src/shared/leaders.js</url>
+          <line>27</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/node_modules/bootstrap/dist/js/bootstrap.min.js" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/public/assets/images/alberto.png" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/public/assets/images/buffet.png" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/node_modules/bootstrap/js/dist/alert.js" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/build/static/css/1.0dc3fa8b.chunk.css" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/src/components/FooterComponent.js" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/public/assets/images/Chef.jpeg" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/src/index.js" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/build/index.html" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/public/index.html" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/404.html" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/src/App.css" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/node_modules/bootstrap/dist/css/bootstrap.css" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/src/components/AboutComponent.js" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/src/App.js" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/package.json" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/src/components/HeaderComponent.js" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/src/redux/promotions.ts" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/src/redux/reducer.js" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/src/components/LoadingComponent.js" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/src/redux/configureStore.js" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/src/redux/promotions.js" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/src/redux/ActionTypes.js" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/src/redux/dishes.js" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/src/shared/dishes.js" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/src/shared/promotions.js" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/src/redux/leaders.js" />
+    <entry file="file://$PROJECT_DIR$/../json-server/db.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="211" column="23" lean-forward="true" selection-start-line="211" selection-start-column="23" selection-end-line="211" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/src/components/ContactComponent.js" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/src/shared/baseUrl.js" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/src/redux/forms.js" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/src/shared/leaders.js" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/src/components/MenuComponent.js" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/src/components/HomeComponent.js" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/src/shared/comments.js" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/src/redux/ActionCreators.js" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/src/redux/comment.js" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/src/components/MainComponent.js" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/src/components/DishDetailComponent.js" />
+    <entry file="file://$PROJECT_DIR$/fusion-taste-reactjs/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
