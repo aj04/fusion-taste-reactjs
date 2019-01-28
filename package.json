@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "author": "Ajay Dubey",
-  "homepage": "http://aj04.github.io/fusion-taste-reactjs",
+  "homepage": ".",
   "dependencies": {
     "bootstrap": "^4.2.1",
     "bootstrap-social": "^5.1.1",
